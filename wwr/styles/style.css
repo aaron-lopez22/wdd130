@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Permanent+Marker&display=swap');
+
+
 #content {
 
     max-width: 1600px;
@@ -5,9 +8,11 @@
 }
 
 nav a{
+   
     text-decoration: none;
     text-align: center;
     color: black;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -33,6 +38,11 @@ main section{
 
 body {
     background-color: #78C5D7;
+    font-family: "Hind Siliguri", Helvetica, sans-serif;
+    font-size:  22px;
+    margin: 0;
+    padding: 0;
+
 }
 
 header{
@@ -49,6 +59,10 @@ nav a:hover{
     text-decoration: none;
     background-color: #FCE172;
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -57,28 +71,44 @@ nav a:hover{
 }
 
 #background{
+
+    height: 725px;
     background-color: #FCE172;
 }
 
 .msg{
     background-color: #FCE172;
+    line-height: 1.5em;
+    padding: 35px;
+    font-family: "Hind Siliguri", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer{
     background-color: #134266;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: black;
+    font-family: "Permanent Marker", Georgia, 'Times New Roman', Times, serif, cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
+    font-family: "Hind Siliguri", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     color: black;
 }
 .msg h2{
     color: black;
+    font-family: "Permanent Marker",  Georgia, 'Times New Roman', Times, serif, cursive;
+    margin: 0;
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+   
 }
 footer a{
     color: white;
@@ -92,6 +122,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 footer p{
     font-size: 1.2em;
@@ -100,3 +131,24 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card, .mountains{
+    margin: 200px 0;
+
+}
+.card-img{
+    border: 10px solid black;
+
+}
+main section img{
+    box-sizing: border-box;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
